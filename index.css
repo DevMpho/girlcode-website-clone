@@ -12,10 +12,20 @@ body{
     background-color: white;
     
 }
-.navbar div a {
+.navbar-nav li a{
     font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
 }
+
+
 
 .navbar div a:hover{
     color: #e94154;
 }
+
+.here-box {
+    width: 100%;
+    
+}
+
