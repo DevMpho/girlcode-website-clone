@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1,5;
+    font-weight: 400;
 }
 
 .navbar {
@@ -47,3 +50,52 @@ body {
     }
 }
 
+p{text-align: center;}
+
+h1{font-size: x-large;
+}
+
+.image-container {
+    width: 100%;
+    padding: 1rem; /* Padding around the images */
+    box-sizing: border-box;
+    background-color:lightgray;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto;
+    width: 40%; /* Make images fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem; /* Space between images */
+}
+.image-container img {
+    margin-bottom: 0.5rem; /* Adjust space between images for smaller screens */
+}
+
+.image-container2 {
+    width: 100%;
+    padding: 1rem; /* Padding around the images */
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.image-container2 img {
+    display: block;
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto;
+    width: 40%; /* Make images fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem; /* Space between images */
+}
+.image-container2 img {
+    margin-bottom: 0.5rem; /* Adjust space between images for smaller screens */
+}
+h1{text-align: center;
+font-size: x-large;}
+
+h2{text-align: center;
+font-size: large;}
