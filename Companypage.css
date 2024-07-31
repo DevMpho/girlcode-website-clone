@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+.navbar-brand img {
+    height: 40px; /* Adjust the height of the logo image as needed */
+}
+.navbar {
+    background-color: white;
+    
+}
+.navbar div a {
+    font-size: 1.1rem;
+}
+
+.navbar div a:hover{
+    color: #e94154;
+}
