@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.navbar-brand img {
+    height: 40px; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem; 
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e94154;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 30vh; 
+    overflow: hidden;
+}
+
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 30px; 
+    }
+}
+
