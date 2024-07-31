@@ -1,41 +1,49 @@
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-color: white;
 }
 
-
-.navbar-brand img {
-    height: 40px; /* Adjust the height of the logo image as needed */
-}
 .navbar {
     background-color: white;
-    
-}
-.navbar div a {
-    font-size: 1.1rem;
+    border-bottom: 1px solid #e3e3e3;
 }
 
-.navbar div a:hover{
+.navbar-brand img {
+    height: 40px; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem; 
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
     color: #e94154;
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto; 
-}
 
-/* Container for the image */
-.container.text-center.mt-4 {
+.hero-image {
     position: relative;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 30vh; 
     overflow: hidden;
 }
 
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
 
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-    /* Responsive adjustments for smaller screens */
     .navbar-brand img {
-        height: 30px; /* Smaller logo on smaller screens */
+        height: 30px; 
     }
 }
+
