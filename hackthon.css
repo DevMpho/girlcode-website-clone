@@ -19,3 +19,19 @@ body{
 .navbar div a:hover{
     color: #e94154;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto; 
+}
+
+/* Container for the image */
+.container.text-center.mt-4 {
+    margin-top: 20px; /* Space above the image */
+}
+
+@media (max-width: 768px) {
+    /* Responsive adjustments for smaller screens */
+    .navbar-brand img {
+        height: 30px; /* Smaller logo on smaller screens */
+    }
+}
