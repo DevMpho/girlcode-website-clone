@@ -59,6 +59,7 @@ h1{font-size: x-large;
     width: 100%;
     padding: 1rem; /* Padding around the images */
     box-sizing: border-box;
+    background-color: rgb(172, 163, 163);
 }
 
 .image-container img {
@@ -73,5 +74,8 @@ h1{font-size: x-large;
 .image-container img {
     margin-bottom: 0.5rem; /* Adjust space between images for smaller screens */
 }
+h1{text-align: center;
+font-size: x-large;}
 
-h2{text-align: center;}
+h2{text-align: center;
+font-size: large;}
