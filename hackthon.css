@@ -29,7 +29,7 @@ body {
 .hero-image {
     position: relative;
     width: 100%;
-    height: 30vh; 
+    height: 50vh; 
     overflow: hidden;
 }
 
@@ -99,3 +99,36 @@ font-size: x-large;}
 
 h2{text-align: center;
 font-size: large;}
+
+.hero-image2 {
+    position: relative;
+    width: 100%;
+    height: 34vh; 
+    overflow: hidden;
+}
+
+.hero-image2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color for contrast against the image */
+}
+
+.image-overlay h3 {
+    margin: 0;
+    font-size: 2rem; /* Adjust size as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Background color to make text stand out */
+    padding: 0.5rem; /* Optional: Padding around the heading */
+}
