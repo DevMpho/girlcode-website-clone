@@ -7,54 +7,163 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Girlcode</title>
+    <link rel="icon" type="x-icon" href="icon2.ico">
 </head>
 <body>
-    <nav class="navbar  navbar-expand-md">
+    <div class="container-fluid">
+    <nav class="navbar  navbar-fixed-top navbar-expand-lg ">
         <div class="container-xxl">
+    
             <a class="navbar-brand" href="index.html">
-                <img src="logo.png" alt="girlcode logo">
+                <img src="logo.png" alt="girlcode logo" width="200" height="">
             </a>
-            <!--toggle button for mobile nav-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" 
-            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
 
-        <!--navbar link-->
-        <div class="collapse navbar-collapse justify-content-end align-center">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="hackthon.html" class="nav-link">Hackathon</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Programs</a>
-                </li>
-                <li class="nav-item">
-                    <a href="Companypage.html" class="nav-link">For Companies</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact Us</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hackathon</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">For Companies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </nav>
+      </nav>
 
+      <div class="container">
+        <div class="card mb-3" style="margin-top: 50px; border: none;">
+            <div class="row g-0">
+              
+              <div class="col-md-6" style="margin-top: 200px;">
+                <div class="card-body">
+                  <h1 class="card-title mb-4">Start your coding journey with us.</h1>
+                  <p class="card-text mb-4" >We are on a mission to empower 10 million women and girls with tech skills by<br>
+                     2030! Learn the most in-demand skills for the jobs of tomorrow with GirlCode.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="hero.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!--sponsors slideshow-->
+      
+      <div class="slider">
+        <div class="slide-track container">
+        <div class="slide">
+        <img src="bbd-DOX5lQfo.svg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="mint-CtQlGiPS.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="accenture-0gCG8LcQ.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="cellC.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="boxfusion-CetRWdar.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="wunderman-thompson-.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="marketiq.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="digiata.svg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="EXL.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="american-tower-corporation-CK3gsp7Z.svg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="active-ops-BJ1yFlMO.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="vuma.svg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="oracle.svg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide flex-shrink-0">
+        <img src="seacom.svg" height="100" width="250" alt="" />
+        </div>
+        </div>
+        </div>
+
+        <!--Programs and bootcamps-->
+        <section class="section-wrapper">
+            <div class="container">
+                <div class="card" style="width: 18rem;">
+                    <img src="kids.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>C# Bootcamp</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="Girlcode-Saturday-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>DigiPreneur</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="kids.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Systems Development Learnership</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="kids2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>Python Development</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="kids.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5>GirlCoder Club</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </section>
     
 
-
-
-
-
-
-
-
-    <h1>Start your coding journey with us.</h1>
-    <p>We are on a mission to empower 10 million women and girls with tech skills by 2030!<br>
-         Learn the most in-demand skills for the jobs of tomorrow with GirlCode</p>
+      
 
 
 
@@ -66,8 +175,10 @@
 
 
 
-         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+
+
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
