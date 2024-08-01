@@ -117,18 +117,23 @@ font-size: large;}
     object-position: center; 
 }
 
-.image-overlay {
+
+.centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Adjust text color for contrast against the image */
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
-.image-overlay h3 {
-    margin: 0;
-    font-size: 2rem; /* Adjust size as needed */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Background color to make text stand out */
-    padding: 0.5rem; /* Optional: Padding around the heading */
-}
+  
+.centered2 {
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: large;
+font-weight: normal;}  
