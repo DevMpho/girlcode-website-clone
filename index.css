@@ -199,12 +199,19 @@ padding-top: 50px;
 .numbers{
 text-align: center;
 display: flex;
-gap: 250px;
+gap: 380px;
 padding-top: 50px;
+padding-left: 350px;
 }
 .redwords{
 text-align: center;
 display: flex;
-gap: 250px;
-padding-bottom: 50px;
+gap: 300px;
+padding-left: 320px;
+}
+.snps{
+text-align: center;
+padding-left: 170px;
+display: flex;
+gap: 70px;
 }
