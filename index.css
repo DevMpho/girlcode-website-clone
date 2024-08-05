@@ -146,3 +146,65 @@ table.onecolumn td {
 table.onecolumn tr:last-child td {
     border-bottom: none;
 }
+
+
+/* About Us page*/
+
+.sct1abt{
+background-image: url(girlcode_students-BNN1dAjh.webp);
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.mantsu{
+padding-left: 150px;
+color: #ddd;
+}
+
+.sct2abt{
+background-color: #ececec;
+display: flex;
+}
+
+.videoxx { padding-left: 70px;
+
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Style for the video*/
+video {
+    display: block;
+    width: 100%;
+    height: auto; 
+    outline: none; 
+}
+
+.parabt{padding-left: 60px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+h1.sct3abt{
+}
+.www{
+text-align: center;
+padding-top: 50px;
+}
+
+.things{
+}
+
+.numbers{
+text-align: center;
+display: flex;
+gap: 250px;
+padding-top: 50px;
+}
+.redwords{
+text-align: center;
+display: flex;
+gap: 250px;
+padding-bottom: 50px;
+}
