@@ -137,3 +137,20 @@ font-size: large;}
     color: white;
     font-size: large;
 font-weight: normal;}  
+
+.hero-image2 .button-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-image2 .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
