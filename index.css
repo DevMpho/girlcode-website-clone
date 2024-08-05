@@ -204,6 +204,7 @@ padding-top: 50px;
 padding-left: 350px;
 }
 .redwords{
+text-decoration: #ff001e;
 text-align: center;
 display: flex;
 gap: 300px;
@@ -214,4 +215,16 @@ text-align: center;
 padding-left: 170px;
 display: flex;
 gap: 70px;
+margin-bottom: 100px;
+}
+
+
+
+
+.team{
+background-color:#ececec ;
+}
+.sba{
+padding-top: 40px;
+padding-left: 600px;
 }
