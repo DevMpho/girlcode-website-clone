@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Testimonials Slider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        .slider-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            will-change: transform;
+        }
+
+        .container {
+            flex: 0 0 33.333%; /* Shows 3 slides at a time */
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            background-color: #eee;
+            border-radius: 5px;
+            padding: 12px; /* Adjusted padding */
+            margin: 0 8px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .container img {
+            width: 60px; /* Adjusted size */
+            height: 60px; /* Adjusted size */
+            border-radius: 50%;
+            margin-right: 12px; /* Space between image and text */
+        }
+
+        .container div {
+            flex: 1;
+        }
+
+        .container p {
+            margin: 0;
+        }
+
+        .container span {
+            font-size: 18px; /* Adjusted font size */
+            margin-right: 10px;
+        }
+
+        .slider-controls {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px; /* Space between testimonials and controls */
+        }
+
+        .slider-controls button {
+            background-color: #eee;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #e94154; /* Arrow color */
+        }
+
+        .dots-container {
+            display: flex;
+            align-items: center;
+            margin: 0 20px; /* Space between dots and arrows */
+        }
+
+        .dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 4px;
+            background-color: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: white;
+            border: 2px solid #e94154; /* Pink border */
+        }
+
+        .dot-arrow {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 10px;
+            color: #e94154;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                text-align: center;
+                flex-direction: column; /* Stack image and text vertically on small screens */
+                align-items: center;
+            }
+            .container img {
+                margin: auto;
+                display: block;}
+            }
+    </style>
+</head>
+<body>
+
+<div class="slider-container">
+    <div class="slider-wrapper">
+        <!-- Slide 1 -->
+        <div class="container">
+            <img src="Khomotso-Mosena.jpg" alt="Avatar">
+            <div>
+                <p><span>Khomotso Mosena</span> Girlcoder</p>
+                <p>Winning a laptop in the coding competition has been a significant boost to my learning journey. It has proven invaluable for coding tasks, making the learning process more accessible and efficient. Combined with my coding classes, it has truly enhanced my experience, providing practicality and convenience in my pursuit of knowledge.</p>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="container">
+            <img src="Zandi.png" alt="Avatar">
+            <div>
+                <p><span>Zandile Tube</span> Girlcoder</p>
+                <p>The program has exceeded my expectations, the staff at GirlCode are extremely friendly and always ready to assist which is a good thing. My hopes for the future are to grow my skills in the IT industry and see myself growing in whichever company I’m placed in.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="container">
+            <img src="Tsholo.png" alt="Avatar">
+            <div>
+                <p><span>Tsholo Khumalo</span> Girlcoder</p>
+                <p>My journey has been an amazing experience. I didn’t even know how much I would grow to love and understand cloud computing. A special shout out to Rumbi and Satish for their patience which led me to become a Certified Cloud Practitioner.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="container">
+            <img src="Thandi.png" alt="Avatar">
+            <div>
+                <p><span>Thandiwe Khalaki</span> Girlcoder</p>
+                <p>Starting the AWS Cloud Practitioner Essentials with GirlCode has been a very pleasant and nice experience. I have also come to build good and meaningful sisterhood with the ladies I am on the program with. I am happy and grateful</p>
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="container">
+            <img src="Khomotso-Mosena.jpg" alt="Avatar">
+            <div>
+                <p><span>Khomotso Mosena</span> Girlcoder</p>
+                <p>Winning a laptop in the coding competition has been a significant boost to my learning journey. It has proven invaluable for coding tasks, making the learning process more accessible and efficient. Combined with my coding classes, it has truly enhanced my experience, providing practicality and convenience in my pursuit of knowledge.</p>
+            </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="container">
+            <img src="Zandi.png" alt="Avatar">
+            <div>
+                <p><span>Zandile Tube</span> Girlcoder</p>
+                <p>The program has exceeded my expectations, the staff at GirlCode are extremely friendly and always ready to assist which is a good thing. My hopes for the future are to grow my skills in the IT industry and see myself growing in whichever company I’m placed in.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-controls">
+        <button class="prev">&#10094;</button>
+        <div class="dots-container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <button class="next">&#10095;</button>
+    </div>
+</div>
+
+<script>
+const sliderWrapper = document.querySelector('.slider-wrapper');
+const slides = document.querySelectorAll('.container');
+const totalSlides = slides.length;
+const dots = document.querySelectorAll('.dot');
+const slidesToShow = 3; // Number of slides to show at a time
+let currentIndex = 0;
+
+function updateDots() {
+    const activeIndex = Math.floor(currentIndex / slidesToShow);
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeIndex);
+    });
+}
+
+function updateSlider() {
+    const offset = -((100 / slidesToShow) * currentIndex);
+    sliderWrapper.style.transform = `translateX(${offset}%)`;
+    updateDots();
+}
+
+document.querySelector('.next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % (totalSlides - slidesToShow + 1);
+    updateSlider();
+});
+
+document.querySelector('.prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + totalSlides - slidesToShow + 1) % (totalSlides - slidesToShow + 1);
+    updateSlider();
+});
+
+// Auto rotate every 5 seconds
+setInterval(() => {
+    document.querySelector('.next').click();
+}, 5000);
+
+// Initialize slider
+updateDots();
+updateSlider();
+</script>
+
+</body>
+</html> 

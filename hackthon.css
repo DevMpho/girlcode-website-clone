@@ -138,19 +138,28 @@ font-size: large;}
     font-size: large;
 font-weight: normal;}  
 
-.hero-image2 .button-container {
+.button-container {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 65%; /* Positioned below the text */
+    left: 80%;
     transform: translate(-50%, -50%);
 }
-
-.hero-image2 .button-container button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
+.button-container button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #e94154;
+    background-color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.button-container button:hover {
+    color: white; 
+    background-color: #e94154;
+    transform: translateY(-2px)
+
+}
+.button-container button:active {
+    transform: translateY(0);
 }
