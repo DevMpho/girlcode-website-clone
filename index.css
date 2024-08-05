@@ -99,4 +99,50 @@ body{
 
 
 
+/* Makema Styling below */
 
+/*Programs page*/
+
+.clubstat {
+background-color: #eb40341f; width: 100%; min-height: 30%;
+padding-left: 150px;
+padding-top: 40px;
+padding-bottom: 40px;} 
+.clubstat{margin: top 100px;}
+h1.clubstat{
+font-family: sans-serif;
+font-weight:400;
+}
+
+.theythem{
+display: flex;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.programsdet{
+padding-left: 90px;
+padding-top: 70px;
+}
+.restof{
+padding-left: 150px;
+}
+
+table.onecolumn {
+    font-family: sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+table.onecolumn td {
+    border: 1px solid #ddd; 
+    padding: 10px 60px;
+    padding-right: 140px;
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
+}
+
+table.onecolumn tr:last-child td {
+    border-bottom: none;
+}
