@@ -163,16 +163,16 @@ color: #ddd;
 .sct2abt{
 background-color: #ececec;
 display: flex;
+height:450px;
 }
 
-.videoxx { padding-left: 40px;
+.videoxx { padding-left: 100px;
     position: relative;
-    width: 50%;
-    max-width: 500px;
-    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    padding-top: 50px;
+    padding-right: 50px;
 }
-
-/* Style for the video*/
 video {
     display: block;
     width: 100%;
@@ -181,16 +181,13 @@ video {
 }
 
 .parabt{padding-left: 10px;
-padding-top: 100px;
-padding-bottom: 100px;
+padding-top: 170px;
 }
-p.parabt{
-font-size: 18px;
+h3.parabt{
+padding-bottom: 10px;
 }
 
-h2.sct3abt{
-font-weight: bold;
-}
+
 .www{
 text-align: center;
 padding-top: 50px;
@@ -221,6 +218,7 @@ margin-bottom: 100px;
 }
 
 .team{
+margin-bottom: 50px;
 background-color: #ececec;
 }
 .sba{
@@ -228,3 +226,97 @@ padding-top: 20px;
 padding-bottom: 20px;
 text-align: center;
 }
+
+
+
+
+.ar-1 {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+   div h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+
+
+
+
+
+.snep {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    padding-left: 100px;
+  }
+  .sneps img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+  }
+  .sneps p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .tit {
+    font-weight: bold;
+    color: #555;
+  }
+
+  
+  .row2 {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px;
+    margin-bottom: 20px; 
+  }
+  .snepe img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+  }
+  .snepe p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .tit {
+    font-weight: bold;
+    color: #555;
+  }
+  .row3 {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px; 
+  }  
+  .row1a {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px; 
+  } 
+  .row2a {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px; 
+  } 
+
+
+  .board{
+    background-color: #ececec;
+    }
+  .tpic{
+    margin-top: 50px;
+    text-align: center;
+    }
+  
+
+
