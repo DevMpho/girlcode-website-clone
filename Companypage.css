@@ -6,7 +6,7 @@ body{
 
 
 .navbar-brand img {
-    height: 40px; /* Adjust the height of the logo image as needed */
+    height: 40px; 
 }
 .navbar {
     background-color: white;
@@ -64,12 +64,12 @@ body{
 
 .container {
     display: flex;
-    width: 100%; /* Ensure the container spans the full width of its parent */
-    height: 50%; /* Ensure the container spans half the height of the viewport */
+    width: 100%; 
+    height: 50%;
 }
 
 .image-container {
-    flex: 2; /* Ensure both containers grow equally */
+    flex: 2; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,8 +79,8 @@ body{
 
 
 .image-container {
-    background-color: #f0f0f0; /* Light gray background for better visibility */
-    overflow: hidden; /* Ensure image doesn’t overflow its container */
+    background-color: #f0f0f0; 
+    overflow: hidden; 
 }
 
 .image-container img {
@@ -107,4 +107,60 @@ h1{font-size: xx-large;
 h2{font-size: xx-large;
 text-align: center;}
 
+.container1 {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 100%; 
+    padding: 30px; 
+    height: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-2 {
+    padding: 0;
+}
+.container2 {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+.container3 {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+.container4 {
+    background-color: #f0f0f0; /* Optional: adjust background color */
+    padding: 20px; /* Optional: adjust padding */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+form {
+    max-width: 600px; /* Optional: limit the width of the form */
+    margin: auto; /* Center form horizontally */
+}
+
+.btn-primary {
+    background-color: #e94154; /* Optional: customize button color */
+    border-color: #e94154; /* Optional: match border color */
+}
+.custom-submit-btn {
+    background-color: #e94154; /* Pink background */
+    color: white; /* White text color */
+    border: 2px solid #e94154; /* Pink border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-submit-btn:hover {
+    background-color: white; /* White background on hover */
+    color: #e94154; /* Pink text color on hover */
+    border: 2px solid #e94154; /* Pink border on hover */
+}
 
