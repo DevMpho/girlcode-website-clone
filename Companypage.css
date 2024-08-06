@@ -175,4 +175,18 @@ form {
     color: #e94154; /* Pink text color on hover */
     border: 2px solid #e94154; /* Pink border on hover */
 }
+.btn.btn-footer {
+    width: 70%;
+    font-weight: bolder;
+    background: #fff;
+    color: #e94154;
+}
 
+.btn.btn-footer:hover {
+    
+    background: #1148c7;
+    color: white;
+}
+footer {
+  padding: 60px 0px;
+}
