@@ -163,3 +163,18 @@ font-weight: normal;}
 .button-container button:active {
     transform: translateY(0);
 }
+.btn.btn-footer {
+    width: 70%;
+    font-weight: bolder;
+    background: #fff;
+    color: #e94154;
+}
+
+.btn.btn-footer:hover {
+    
+    background: #1148c7;
+    color: white;
+}
+footer {
+  padding: 60px 0px;
+}

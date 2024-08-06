@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #f0f0f0; 
 }
 
 
 .navbar-brand img {
-    height: 40px; /* Adjust the height of the logo image as needed */
+    height: 40px; 
 }
 .navbar {
     background-color: white;
@@ -18,4 +18,175 @@ body{
 
 .navbar div a:hover{
     color: #e94154;
+}
+.hero-image {
+    background-image: linear-gradient(#e9415480, #e9415480), url(https://cms.girlcode.co.za/wp-content/uploads/2019/04/Girlcode-Saturday-74-min-1.jpg);
+
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    overflow: hidden;
+}
+.hero-image {
+    padding: 72px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.centered2 {
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: large;
+    font-weight: normal;}  
+
+
+.container {
+    display: flex;
+    width: 100%; 
+    height: 50%;
+}
+
+.image-container {
+    flex: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; 
+    padding: 20px;
+}
+
+
+.image-container {
+    background-color: #f0f0f0; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.text-container {
+    background-color: #f0f0f0; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+}
+p {
+    margin: 0; 
+}
+
+h1{font-size: xx-large;
+}
+h2{font-size: xx-large;
+text-align: center;}
+
+.container1 {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 100%; 
+    padding: 30px; 
+    height: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-2 {
+    padding: 0;
+}
+.container2 {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+.container3 {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.container4 {
+    background-color: #f0f0f0; /* Optional: adjust background color */
+    padding: 5px; /* Optional: adjust padding */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    .container4 {
+        width: 60%; /* Default width for large screens */
+        max-width: 600px; /* Maximum width */
+        margin: 0 auto; /* Centers the container */
+    }
+    
+    @media (max-width: 768px) {
+        .container {
+            width: 95%; /* Adjust width for smaller screens */
+        }
+    }
+
+form {
+    max-width: 600px; /* Optional: limit the width of the form */
+    margin: auto; /* Center form horizontally */
+}
+
+.btn-primary {
+    background-color: #e94154; /* Optional: customize button color */
+    border-color: #e94154; /* Optional: match border color */
+}
+.custom-submit-btn {
+    background-color: #e94154; /* Pink background */
+    color: white; /* White text color */
+    border: 2px solid #e94154; /* Pink border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-submit-btn:hover {
+    background-color: white; /* White background on hover */
+    color: #e94154; /* Pink text color on hover */
+    border: 2px solid #e94154; /* Pink border on hover */
+}
+.btn.btn-footer {
+    width: 70%;
+    font-weight: bolder;
+    background: #fff;
+    color: #e94154;
+}
+
+.btn.btn-footer:hover {
+    
+    background: #1148c7;
+    color: white;
+}
+footer {
+  padding: 60px 0px;
 }
