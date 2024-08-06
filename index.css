@@ -286,6 +286,11 @@ text-align: center;
     margin: 5px 0;
     text-align: center;
   }
+.snepe{
+  border: 1px #555;
+}
+
+
   .tit {
     font-weight: bold;
     color: #555;
@@ -298,7 +303,8 @@ text-align: center;
   }  
   .row1a {
     display: flex;
-    margin: 20px; 
+    margin: 20px;
+    margin-bottom: 30px; 
     gap: 20px;
     padding-left: 100px; 
   } 
@@ -306,15 +312,18 @@ text-align: center;
     display: flex;
     margin: 20px; 
     gap: 20px;
-    padding-left: 100px; 
+    padding-left: 250px; 
   } 
 
 
   .board{
-    background-color: #ececec;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 50px;
     }
   .tpic{
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     }
   
