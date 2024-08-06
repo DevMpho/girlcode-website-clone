@@ -135,12 +135,24 @@ text-align: center;}
     text-align: center;
     padding: 30px;
 }
+
 .container4 {
     background-color: #f0f0f0; /* Optional: adjust background color */
-    padding: 20px; /* Optional: adjust padding */
+    padding: 5px; /* Optional: adjust padding */
     border-radius: 8px; /* Optional: add rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
-}
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    .container4 {
+        width: 60%; /* Default width for large screens */
+        max-width: 600px; /* Maximum width */
+        margin: 0 auto; /* Centers the container */
+    }
+    
+    @media (max-width: 768px) {
+        .container {
+            width: 95%; /* Adjust width for smaller screens */
+        }
+    }
 
 form {
     max-width: 600px; /* Optional: limit the width of the form */
