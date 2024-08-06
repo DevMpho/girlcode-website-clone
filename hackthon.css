@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -138,33 +137,54 @@ font-size: large;}
     font-size: large;
 font-weight: normal;}  
 
-.button-container {
-    position: absolute;
-    top: 65%; /* Positioned below the text */
-    left: 80%;
-    transform: translate(-50%, -50%);
+
+.Donate{
+    background-image: url(https://www.girlcode.co.za/assets/girlcode_students-BNN1dAjh.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 35vh; 
+    overflow: hidden;
 }
-.button-container button {
+.Donate-left{
+    width: 1000px;
+    margin-left: 20px;
+    padding: 95px;
+}
+.Donate-left h3{
+    font-size: 20px;
+    color: white;
+}
+.Donate-left p{
+    font-size: 18px;
+    color: 18px;
+}
+.Donate-button {
     padding: 12px 24px;
     font-size: 1rem;
     color: #e94154;
     background-color: white;
     border: none;
+    padding: 10px 80px;
+    margin: auto;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
-.button-container button:hover {
+.Donate-button :hover {
     color: white; 
     background-color: #e94154;
     transform: translateY(-2px)
 
 }
-.button-container button:active {
+.Donate-button :active {
     transform: translateY(0);
 }
 .btn.btn-footer {
-    width: 70%;
+    width: 80%;
     font-weight: bolder;
     background: #fff;
     color: #e94154;
