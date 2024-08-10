@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    line-height: 1,5;
+    line-height: 1.5;
     font-weight: 400;
 }
 
@@ -13,11 +13,11 @@ body {
 }
 
 .navbar-brand img {
-    height: 40px; 
+    height: 40px;
 }
 
 .navbar-nav .nav-link {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
     color: #333;
 }
 
@@ -28,7 +28,7 @@ body {
 .hero-image {
     position: relative;
     width: 100%;
-    height: 50vh; 
+    height: 50vh;
     overflow: hidden;
 }
 
@@ -38,49 +38,47 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    object-position: center; 
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .navbar-brand img {
-        height: 30px; 
+        height: 30px;
     }
 }
 
-p{text-align: center;}
-
-h1{font-size: x-large;
+p {
+    text-align: center;
 }
 
-.image-container {
-    width: 100%;
-    padding: 1rem; /* Padding around the images */
-    box-sizing: border-box;
-    background-color:lightgray;
+h1 {
+    font-size: x-large;
+    text-align: center;
 }
 
-.image-container img {
-    display: block;
-    max-width: 100%; /* Ensure the image does not exceed the container's width */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto;
-    width: 40%; /* Make images fill the width of the container */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 1rem; /* Space between images */
-}
-.image-container img {
-    margin-bottom: 0.5rem; /* Adjust space between images for smaller screens */
+h2 {
+    font-size: large;
+    text-align: center;
 }
 
+.image-container,
 .image-container2 {
     width: 100%;
     padding: 1rem; /* Padding around the images */
     box-sizing: border-box;
+}
+
+.image-container {
+    background-color: lightgray;
+}
+
+.image-container2 {
     background-color: white;
 }
 
+.image-container img,
 .image-container2 img {
     display: block;
     max-width: 100%; /* Ensure the image does not exceed the container's width */
@@ -90,19 +88,11 @@ h1{font-size: x-large;
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 1rem; /* Space between images */
 }
-.image-container2 img {
-    margin-bottom: 0.5rem; /* Adjust space between images for smaller screens */
-}
-h1{text-align: center;
-font-size: x-large;}
-
-h2{text-align: center;
-font-size: large;}
 
 .hero-image2 {
     position: relative;
     width: 100%;
-    height: 34vh; 
+    height: 34vh;
     overflow: hidden;
 }
 
@@ -112,10 +102,9 @@ font-size: large;}
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    object-position: center; 
+    object-fit: cover;
+    object-position: center;
 }
-
 
 .centered {
     position: absolute;
@@ -127,7 +116,6 @@ font-size: large;}
     font-weight: bolder;
 }
 
-  
 .centered2 {
     position: absolute;
     top: 65%;
@@ -135,10 +123,10 @@ font-size: large;}
     transform: translate(-50%, -50%);
     color: white;
     font-size: large;
-font-weight: normal;}  
+    font-weight: normal;
+}
 
-
-.Donate{
+.Donate {
     background-image: url(https://www.girlcode.co.za/assets/girlcode_students-BNN1dAjh.webp);
     background-position: center;
     background-size: cover;
@@ -146,43 +134,49 @@ font-weight: normal;}
     justify-content: space-around;
     position: relative;
     width: 100%;
-    height: 35vh; 
+    height: 35vh;
     overflow: hidden;
+    align-items: center;
 }
-.Donate-left{
-    width: 1000px;
+
+.Donate-left {
+    width: 50%; /* Adjust width as needed */
     margin-left: 20px;
-    padding: 95px;
+    padding: 20px; /* Reduced padding for better fit */
+    color: white; /* Ensure text is readable on background */
 }
-.Donate-left h3{
+
+.Donate-left h3 {
     font-size: 20px;
-    color: white;
 }
-.Donate-left p{
+
+.Donate-left p {
     font-size: 18px;
-    color: 18px;
 }
+
 .Donate-button {
+    display: inline-block;
     padding: 12px 24px;
     font-size: 1rem;
-    color: #e94154;
-    background-color: white;
+    color: white;
+    background-color: #e94154;
     border: none;
-    padding: 10px 80px;
-    margin: auto;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
     transition: background-color 0.3s, transform 0.3s;
 }
-.Donate-button :hover {
-    color: white; 
-    background-color: #e94154;
-    transform: translateY(-2px)
 
+.Donate-button:hover {
+    background-color: #d73850; /* Darker shade of the button color */
+    transform: translateY(-2px);
 }
-.Donate-button :active {
+
+.Donate-button:active {
     transform: translateY(0);
 }
+
 .btn.btn-footer {
     width: 80%;
     font-weight: bolder;
@@ -191,10 +185,17 @@ font-weight: normal;}
 }
 
 .btn.btn-footer:hover {
-    
     background: #1148c7;
     color: white;
 }
+
 footer {
-  padding: 60px 0px;
+    padding: 60px 0px;
+    background-color: rgb(233, 65, 84);
+}
+h4{
+    font-weight: bold;
+    font-size: xx-large;
+    position: absolute;
+    right: 98; 
 }
