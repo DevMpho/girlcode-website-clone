@@ -198,11 +198,16 @@ h4{
     font-weight: bold;
     font-size: xx-large;
     position: absolute;
-    right: 100; 
+    margin-right: 10rem;
 }
 h3{
-    font-size: xx-large;
+    font-size: x-large;
     position: absolute;
     right: 100; 
 
+}
+@media (min-width: 576px) {
+    .me-sm-3 {
+        margin-left: 45%;
+    }
 }
