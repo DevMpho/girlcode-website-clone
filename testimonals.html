@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.girlcode.co.za/assets/bootstrap-DUEfxN0n.css">
+    <title>Testimonial Slider</title>
+    <style>
+        :root {
+            --slide-gap: 20px;
+            --slider-width: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .section-content {
+            margin-top: 36px;
+        }
+        .blaze-slider {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .blaze-slider h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .blaze-slider h2 span {
+            display: block;
+            font-size: 1rem;
+            color: #6c757d;
+        }
+        .blaze-container {
+            overflow: hidden;
+            width: var(--slider-width);
+        }
+        .blaze-track-container {
+            display: flex;
+            align-items: center;
+        }
+        .blaze-track {
+            display: flex;
+            transition: transform 300ms ease;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+            margin-right: var(--slide-gap);
+            width: 300px; /* Adjust width as needed */
+            flex: 0 0 auto;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.25rem;
+        }
+        .card p {
+            margin: 0;
+            color: #6c757d;
+        }
+        .slider-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .slider-controls button {
+            background-color: black;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: white; /* Arrow color */
+        }
+        .dots-container {
+            display: flex;
+            align-items: center;
+            margin: 0 20px; /* Space between dots and arrows */
+        }
+        .dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 4px;
+            background-color: black; /* Inactive dot color */
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .dot.active {
+            background-color: white;
+            border: 2px solid #e94154; /* Pink border for active dot */
+        }
+    </style>
+</head>
+<body>
+    <section id="testimonials-section">
+        <div class="section-content">
+            <div class="blaze-slider" style="--slides-to-show: 3; --slide-gap: 20px;">
+                <h2 class="col-8 mx-auto">Testimonials<span>Here is what our GirlCoders, Parents and Partners have to say.</span></h2>
+                <div class="blaze-container">
+                    <div class="blaze-track-container">
+                        <div class="blaze-track">
+                            <!-- Slider items (cards) -->
+                            <div class="card p-4">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <figure class="w-25 ratio ratio-1x1 overflow-hidden rounded-circle">
+                                        <img src="https://cms.girlcode.co.za/wp-content/uploads/2022/01/Thandi.png" alt="Thandiwe Khalaki" loading="lazy">
+                                    </figure>
+                                    <div>
+                                        <h3 class="card-title fs-5 mb-0 fw-bold">Thandiwe Khalaki</h3>
+                                        <p class="card-subtitle mb-0 text-muted">GirlCoder</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 fs-6 lh-1">
+                                    <p>Starting the AWS Cloud Practitioner Essentials with GirlCode has been a very pleasant and nice experience. I have also come to build good and meaningful sisterhood with the ladies I am on the program with. I am happy and grateful</p>
+                                </div>
+                            </div>
+                            <div class="card p-4">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <figure class="w-25 ratio ratio-1x1 overflow-hidden rounded-circle">
+                                        <img src="https://cms.girlcode.co.za/wp-content/uploads/2024/01/Khomotso-Mosena.jpg" alt="Khomotso Mosena" loading="lazy">
+                                    </figure>
+                                    <div>
+                                        <h3 class="card-title fs-5 mb-0 fw-bold">Khomotso Mosena</h3>
+                                        <p class="card-subtitle mb-0 text-muted">GirlCoder</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 fs-6 lh-1">
+                                    <p>Winning a laptop in the coding competition has been a significant boost to my learning journey. It has proven invaluable for coding tasks, making the learning process more accessible and efficient. Combined with my coding classes, it has truly enhanced my experience, providing practicality and convenience in my pursuit of knowledge.</p>
+                                </div>
+                            </div>
+                            <div class="card p-4">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <figure class="w-25 ratio ratio-1x1 overflow-hidden rounded-circle">
+                                        <img src="https://cms.girlcode.co.za/wp-content/uploads/2022/01/Zandi.png" alt="Zandile Tube" loading="lazy">
+                                    </figure>
+                                    <div>
+                                        <h3 class="card-title fs-5 mb-0 fw-bold">Zandile Tube</h3>
+                                        <p class="card-subtitle mb-0 text-muted">GirlCoder</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 fs-6 lh-1">
+                                    <p>The program has exceeded my expectations, the staff at GirlCode are extremely friendly and always ready to assist which is a good thing. My hopes for the future are to grow my skills in the IT industry and see myself growing in whichever company I’m placed in.</p>
+                                </div>
+                            </div>
+                            <div class="card p-4">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <figure class="w-25 ratio ratio-1x1 overflow-hidden rounded-circle">
+                                        <img src="https://cms.girlcode.co.za/wp-content/uploads/2022/01/Tsholo.png" alt="Tsholo Khumalo" loading="lazy">
+                                    </figure>
+                                    <div>
+                                        <h3 class="card-title fs-5 mb-0 fw-bold">Tsholo Khumalo</h3>
+                                        <p class="card-subtitle mb-0 text-muted">GirlCoder</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 fs-6 lh-1">
+                                    <p>My journey has been an amazing experience. I didn’t even know how much I would grow to love and understand cloud computing. A special shout out to Rumbi and Satish for their patience which led me to become a Certified Cloud Practitioner.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="blaze-prev">&lt;</button>
+                    <div class="dots-container"></div>
+                    <button class="blaze-next">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const track = document.querySelector('.blaze-track');
+            const slides = Array.from(track.children);
+            const nextButton = document.querySelector('.blaze-next');
+            const prevButton = document.querySelector('.blaze-prev');
+            const dotsContainer = document.querySelector('.dots-container');
+            const slideWidth = slides[0].getBoundingClientRect().width;
+            const slideGap = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--slide-gap'));
+
+            let currentIndex = 0;
+
+            // Initialize pagination dots
+            slides.forEach((_, index) => {
+                const dot = document.createElement('button');
+                dot.className = 'dot';
+                dot.addEventListener('click', () => moveToSlide(index));
+                dotsContainer.appendChild(dot);
+            });
+
+            function updateTrackPosition() {
+                const offset = -currentIndex * (slideWidth + slideGap);
+                track.style.transform = `translateX(${offset}px)`;
+            }
+
+            function updatePagination() {
+                const dots = dotsContainer.querySelectorAll('button');
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            function moveToSlide(index) {
+                if (index >= 0 && index < slides.length) {
+                    currentIndex = index;
+                    updateTrackPosition();
+                    updatePagination();
+                }
+            }
+
+            nextButton.addEventListener('click', () => {
+                moveToSlide((currentIndex + 1) % slides.length);
+            });
+
+            prevButton.addEventListener('click', () => {
+                moveToSlide((currentIndex - 1 + slides.length) % slides.length);
+            });
+
+            // Automatic slide rotation
+            setInterval(() => {
+                moveToSlide((currentIndex + 1) % slides.length);
+            }, 5000); // Change slide every 5 seconds
+
+            // Initialize
+            updateTrackPosition();
+            updatePagination();
+        });
+    </script>
+</body>
+</html>

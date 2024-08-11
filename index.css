@@ -282,4 +282,233 @@ padding: 60px 0px;
 
 
 
+/* Makema Styling below */
+
+/*Programs page*/
+
+.clubstat {
+background-color: #eb40341f; width: 100%; min-height: 30%;
+padding-left: 150px;
+padding-top: 40px;
+padding-bottom: 40px;} 
+.clubstat{margin: top 100px;}
+h1.clubstat{
+font-family: sans-serif;
+font-weight:400;
+}
+
+.theythem{
+display: flex;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.programsdet{
+padding-left: 90px;
+padding-top: 70px;
+}
+.restof{
+padding-left: 150px;
+}
+
+table.onecolumn {
+    font-family: sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+table.onecolumn td {
+    border: 1px solid #ddd; 
+    padding: 10px 60px;
+    padding-right: 140px;
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
+}
+
+table.onecolumn tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* About Us page*/
+
+.sct1abt{
+background-image: url(girlcode_students-BNN1dAjh.webp);
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.mantsu{
+padding-left: 150px;
+color: #ddd;
+}
+
+.sct2abt{
+background-color: #ececec;
+display: flex;
+height:450px;
+}
+
+.videoxx { padding-left: 100px;
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+video {
+    display: block;
+    width: 100%;
+    height: auto; 
+    outline: none; 
+}
+
+.parabt{padding-left: 10px;
+padding-top: 170px;
+}
+h3.parabt{
+padding-bottom: 10px;
+}
+
+
+.www{
+text-align: center;
+padding-top: 50px;
+}
+
+.numbers{
+font-size:25px ;
+text-align: center;
+display: flex;
+gap: 380px;
+padding-top: 50px;
+padding-left: 350px;
+}
+.redwords{
+color: #ff0000;
+font-size: 18px;
+text-align: center;
+display: flex;
+gap: 300px;
+padding-left: 330px;
+}
+.snps{
+text-align: center;
+padding-left: 170px;
+display: flex;
+gap: 70px;
+margin-bottom: 100px;
+}
+
+.team{
+margin-bottom: 50px;
+background-color: #ececec;
+}
+.sba{
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+
+
+
+
+.ar-1 {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+   div h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+
+
+
+
+
+.snep {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    padding-left: 100px;
+  }
+  .sneps img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+  }
+  .sneps p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .tit {
+    font-weight: bold;
+    color: #555;
+  }
+
+  
+  .row2 {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px;
+    margin-bottom: 20px; 
+  }
+  .snepe img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+  }
+  .snepe p {
+    margin: 5px 0;
+    text-align: center;
+  }
+.snepe{
+  border: 1px #555;
+}
+
+
+  .tit {
+    font-weight: bold;
+    color: #555;
+  }
+  .row3 {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 100px; 
+  }  
+  .row1a {
+    display: flex;
+    margin: 20px;
+    margin-bottom: 30px; 
+    gap: 20px;
+    padding-left: 100px; 
+  } 
+  .row2a {
+    display: flex;
+    margin: 20px; 
+    gap: 20px;
+    padding-left: 250px; 
+  } 
+
+
+  .board{
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    }
+  .tpic{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+  
+
 
