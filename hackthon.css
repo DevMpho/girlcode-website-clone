@@ -56,6 +56,7 @@ p {
 h1 {
     font-size: x-large;
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
@@ -197,5 +198,11 @@ h4{
     font-weight: bold;
     font-size: xx-large;
     position: absolute;
-    right: 98; 
+    right: 100; 
+}
+h3{
+    font-size: xx-large;
+    position: absolute;
+    right: 100; 
+
 }
