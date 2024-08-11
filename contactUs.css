@@ -1,0 +1,50 @@
+.page-header#contact-us-header {
+    background-image: linear-gradient(#e9415480, #e9415480), url(https://cms.girlcode.co.za/wp-content/uploads/2019/04/Girlcode-Saturday-74-min-1.jpg);
+    text-align: center;
+}
+
+.page-header {
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header#contact-us-header h1 {
+    margin: 0 auto;
+}
+
+.page-header h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.page-header p:is(:last-child) {
+    margin: 0;
+}
+.girlcode-header {
+    text-align: center;
+  }
+
+.page-header span {
+    
+        display: block;
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 1.5rem;
+        color: #fff;
+      
+
+};
+
+/*contact info*/
+
+.contact-info {
+    border: 3px solid #ddd;
+    border-radius: 6px;
+    padding: 12px;
+    height: 100%;
+    text-align: center;
+}
+    

@@ -20,7 +20,7 @@ body{
 
 
 
-.navbar div a:hover{
+.nav-item a:hover{
     color: #e94154;
 }
 
@@ -34,7 +34,14 @@ body{
     line-height: 1;
     color: #e94154;
 }
-
+div.small {
+  margin-top: 200px;
+}
+@media (max-width: 600px) {
+  div.small{
+      margin-top: 0px;
+  }
+}
 
 
 @-webkit-keyframes scroll {
@@ -174,6 +181,100 @@ body{
         font-size: 1.5rem;
         font-weight: 300;
     }
+
+    /*help section*/
+    .help-wrapper:nth-child(odd) {
+      background: #ececec;
+      padding: 72px 0;
+  }
+  
+  
+  
+  .help-wrapper .help-header h2 {
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+      line-height: 1.2;
+      margin: 0;
+  }
+
+  .help-content {
+    margin-top: 36px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-sm-3 {
+  display: flex;
+}
+.help2 {
+  background-color: #ececec;
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+
+/*sponsors images section*/
+.partner-logo img {
+  object-fit: contain;
+  aspect-ratio: 3;
+  object-position: center;
+}
+figure img {
+  aspect-ratio: 2;
+  width: 100%;
+  object-position: top center;
+  object-fit: cover;
+}
+.partner-header {
+  text-align: center;
+}
+.partner-header h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+}
+.partner-header h2 span{
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 1.5rem;
+}
+
+.btn.btn-learn-more {
+  width: fit-content;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #e94154;
+  border-color: #e94154;
+  
+}
+
+/*footer*/
+.btn.btn-footer {
+  width: 70%;
+  font-weight: bolder;
+  background: #fff;
+  color: #e94154;
+}
+
+.btn.btn-footer:hover {
+  
+  background: #1148c7;
+  color: white;
+}
+footer {
+padding: 60px 0px;
+}
+
+  
 
       
     
