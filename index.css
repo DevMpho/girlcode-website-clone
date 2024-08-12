@@ -182,6 +182,77 @@ div.small {
         font-weight: 300;
     }
 
+    /** Testimonal **/
+:root {
+  --slide-gap: 20px;
+  --slider-width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.section-content {
+  margin-top: 36px;
+}
+.blaze-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blaze-slider h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blaze-slider h2 span {
+  display: block;
+  font-size: 1rem;
+  color: #6c757d;
+}
+.blaze-container {
+  overflow: hidden;
+  width: var(--slider-width);
+}
+.blaze-track-container {
+  display: flex;
+  align-items: center;
+}
+.blaze-track {
+  display: flex;
+  transition: transform 300ms ease;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.slider-controls button {
+  background-color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white; /* Arrow color */
+}
+.dots-container {
+  display: flex;
+  align-items: center;
+  margin: 0 20px; /* Space between dots and arrows */
+}
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: black; /* Inactive dot color */
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot.active {
+  background-color: white;
+  border: 2px solid #e94154; /* Pink border for active dot */
+}
+
     /*help section*/
     .help-wrapper:nth-child(odd) {
       background: #ececec;
