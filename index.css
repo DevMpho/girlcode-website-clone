@@ -315,15 +315,16 @@ table.onecolumn {
     font-size: 20px;
     border-collapse: collapse;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
 table.onecolumn td {
     border: 1px solid #ddd; 
     padding: 10px 60px;
-    padding-right: 140px;
+    padding-right: 150px;
     text-align: left; 
     border-bottom: 1px solid #ddd;
+    white-space: nowrap;
 }
 
 table.onecolumn tr:last-child td {
@@ -335,12 +336,13 @@ table.onecolumn tr:last-child td {
 
 .sct1abt{
 background-image: url(girlcode_students-BNN1dAjh.webp);
+background-position: center;
 padding-top: 80px;
 padding-bottom: 80px;
 }
 .mantsu{
 padding-left: 150px;
-color: #ddd;
+color: #ffffff;
 }
 
 .sct2abt{
@@ -509,6 +511,36 @@ text-align: center;
     margin-bottom: 50px;
     text-align: center;
     }
-  
 
+  .sct5abt{
+    display: flex;
+    background-position: center;
+    background-image: url(girlcode_students-BNN1dAjh.webp);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+.wordes{
+  padding-left: 150px;
+  color: #ffffff;
+}
+.fest{
+font-size: 35px;
+}
+.sest{
+  font-size: 18px;
+}
 
+.bathan{
+  padding-left: 250px;
+  padding-top: 55px;
+  font-size: 22px;
+}
+.bathan button {
+  background-color: white; 
+  color: #ff69b4; 
+  padding: 5px 30px;
+  font-size: 22px;
+  cursor: pointer; 
+  border-radius: 10px;
+  outline: none;
+}

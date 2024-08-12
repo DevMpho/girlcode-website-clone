@@ -4,6 +4,7 @@
 }
 
 .page-header {
+    height: 280px;
     padding: 120px 0;
     background-size: cover;
     background-position: center;
