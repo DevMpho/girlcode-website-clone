@@ -1,0 +1,71 @@
+.Donate {
+    background-image: url(https://www.girlcode.co.za/assets/girlcode_students-BNN1dAjh.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+    align-items: center;
+}
+
+.Donate-left {
+    width: 50%; /* Adjust width as needed */
+    margin-left: 20px;
+    padding: 20px; /* Reduced padding for better fit */
+    color: white; /* Ensure text is readable on background */
+}
+
+.Donate-left h3 {
+    font-size: 20px;
+}
+
+.Donate-left p {
+    font-size: 18px;
+}
+
+.Donate-button {
+        background: #fff;
+        color: #e94154;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        width: 12rem;
+        border: 1px solid #fff;
+        box-shadow: none;
+        margin: 0 auto;
+        display: block;
+        display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Donate-button:hover {
+    background-color: #d73850; /* Darker shade of the button color */
+    transform: translateY(-2px);
+}
+
+.Donate-button:active {
+    transform: translateY(0);
+}
+
+.wit{
+    font-weight: bold;
+    font-size: xx-large;
+    position: absolute;
+    margin-right: 1rem;
+}
+.ney{
+    font-size: large;
+    position: absolute;
+    right: 100; 
+
+}
