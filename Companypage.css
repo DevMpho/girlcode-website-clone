@@ -13,17 +13,21 @@ h3{
 }
 
 .navbar-brand img {
-    height: 40px; 
+    height: 40px; /* Adjust the height of the logo image as needed */
 }
 .navbar {
     background-color: white;
     
 }
-.navbar div a {
+.navbar-nav li a{
     font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
 }
 
-.navbar div a:hover{
+
+
+.nav-item a:hover{
     color: #e94154;
 }
 .hero-image {
