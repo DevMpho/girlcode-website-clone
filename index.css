@@ -315,15 +315,16 @@ table.onecolumn {
     font-size: 20px;
     border-collapse: collapse;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
 table.onecolumn td {
     border: 1px solid #ddd; 
     padding: 10px 60px;
-    padding-right: 140px;
+    padding-right: 150px;
     text-align: left; 
     border-bottom: 1px solid #ddd;
+    white-space: nowrap;
 }
 
 table.onecolumn tr:last-child td {
@@ -509,6 +510,5 @@ text-align: center;
     margin-bottom: 50px;
     text-align: center;
     }
-  
 
 
